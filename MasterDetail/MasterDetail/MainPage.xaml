@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MasterDetail"
+             x:Class="MasterDetail.MainPage">
+    <!--<ContentPage.BindingContext>
+        <local:MainPageViewModel></local:MainPageViewModel>
+    </ContentPage.BindingContext>-->
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Font="50" Text="->" Command="{Binding NavigateCommand}"/>
+            <!--<Button Font="50" Text="->" Clicked="NavigationHandler"/>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
